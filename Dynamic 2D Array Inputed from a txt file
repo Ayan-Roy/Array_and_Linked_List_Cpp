@@ -1,0 +1,34 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+    int row, column, i, j;
+    ifstream file;
+    file.open("database.txt");
+    file>>row;
+    file>>column;
+    int **Array = new int *[row];
+
+    for(i=0; i<row; i++)
+       {
+            Array[i] = new int [column];
+       }
+
+    for(i=0; i<row; i++)
+    {
+        for(j=0; j<column; j++)
+        {
+             file>>Array[i][j];
+        }
+    }
+    
+    for(i=0; i<row; i++)
+    {
+        for(j=0; j<column; j++)
+        {
+             cout<<Array[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+}
