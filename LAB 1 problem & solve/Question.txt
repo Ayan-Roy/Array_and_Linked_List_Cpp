@@ -1,0 +1,7 @@
+Take an input from the input file, the input will be a 2D array. The output will be Transposed version of the input array.
+
+		input		output
+(row and column)      2  3
+		1  2  3 		1  4
+		4  5  6		2  5
+				3  6		
