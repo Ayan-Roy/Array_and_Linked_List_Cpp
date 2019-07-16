@@ -1,0 +1,10 @@
+Given a set of coins with its count and a given value.
+
+a) Find the minimum number of coins which satisfies the value.
+b) Find the miximumnumber of coins which satisfies the value.
+
+Input: 
+
+coins[ ] =  {5, 10, 20, 25}
+numberOfCoin = { 2, 3,3 2}
+value = 50
